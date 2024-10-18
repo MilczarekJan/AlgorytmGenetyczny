@@ -13,10 +13,8 @@ def main():
     ttk.Label(frm, text="Mutation chance:", padding=10).grid(column=0, row=0, sticky=W)
     ttk.Label(frm, text="Crossover chance:", padding=10).grid(column=1, row=0, sticky=W)
     ttk.Label(frm, text="Max number of generations:", padding=10).grid(column=2, row=0, sticky=W)
+    ttk.Label(frm, text="Starting population:", padding=10).grid(column=3, row=0, sticky=W)
     ttk.Label(frm, text="Fitness function:", padding=10).grid(column=0, row=2, sticky=W)
-    ttk.Label(frm, text="Function domain:", padding=10).grid(column=0, row=3, sticky=W)
-    ttk.Label(frm, text="Min:", padding=10).grid(column=1, row=3, sticky=E)
-    ttk.Label(frm, text="Max:", padding=10).grid(column=3, row=3, sticky=E)
 
     mutation = ttk.Entry(frm)
     mutation.grid(column=0, row=1,  padx=10, sticky=W)
@@ -24,27 +22,23 @@ def main():
     crossover.grid(column=1, row=1, padx=10, sticky=W)
     generations = ttk.Entry(frm)
     generations.grid(column=2, row=1, padx=10, sticky=W)
-    minx = ttk.Entry(frm)
-    minx.grid(column=2, row=3, padx=10, sticky=W)
-    maxx = ttk.Entry(frm)
-    maxx.grid(column=4, row=3, padx=10, sticky=W)
+    population = ttk.Entry(frm)
+    population.grid(column=3, row=1, padx=10, sticky=W)
 
     options = ["Examined function", "Linear scaling", "Quadratic scaling"]
     combo = ttk.Combobox(frm, values=options)
     combo.grid(column=1, row=2, padx=10, sticky=W)
-    ttk.Button(frm, text="Start algorithm", command=lambda: startalgorithm(mutation, crossover, generations, minx, maxx, combo)).grid(column=2, row=4)
+    ttk.Button(frm, text="Start algorithm", command=lambda: startalgorithm(mutation, crossover, generations, population, combo)).grid(column=2, row=4)
     root.mainloop()
 
-def startalgorithm(mutation, crossover, generations, minx, maxx, combo):
+def startalgorithm(mutation, crossover, generations, population, combo):
     mutation_value = mutation.get()
     crossover_value = crossover.get()
     generations_value = generations.get()
-    minx_value = minx.get()
-    maxx_value = maxx.get()
+    population_value = population.get()
     function_value = combo.get()
-    genalgorithm = GeneticAlgorithm(mutation_value, crossover_value, generations_value, function_value, (minx_value, maxx_value))
-    genalgorithm.show()
-
+    genalgorithm = GeneticAlgorithm(mutation_value, crossover_value, generations_value, population_value, function_value)
+    genalgorithm.startgenetic()
 
 if __name__ == '__main__':
     main()
