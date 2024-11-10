@@ -32,10 +32,10 @@ def main():
     root.mainloop()
 
 def startalgorithm(mutation, crossover, generations, population, combo):
-    mutation_value = mutation.get()
-    crossover_value = crossover.get()
-    generations_value = generations.get()
-    population_value = population.get()
+    mutation_value = float(mutation.get())
+    crossover_value = float(crossover.get())
+    generations_value = int(generations.get())
+    population_value = int(population.get())
     function_value = combo.get()
     genalgorithm = GeneticAlgorithm(mutation_value, crossover_value, generations_value, population_value, function_value)
     genalgorithm.startgenetic()
