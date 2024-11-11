@@ -1,4 +1,5 @@
 import array
+from pickle import TRUE
 import matplotlib.pyplot as plt
 import numpy as np
 import random
@@ -13,14 +14,14 @@ class GeneticAlgorithm:
         self.FunctionDomain = (-1, 31)
 
     def fitness(self, x):
-        if self.FitnessFunction == "Examined function":
+        if self.FitnessFunction == "1st function":
             fitness_function = -0.2 * x**2 + 6*x + 7
             return fitness_function
-        elif self.FitnessFunction == "Linear scaling":
-            fitness_function = 5 * (-0.2 * x**2 + 6*x + 7)
+        elif self.FitnessFunction == "2nd function":
+            fitness_function = -0.1 * x**2 + 5*x + 10
             return fitness_function
-        elif self.FitnessFunction == "Quadratic scaling":
-            fitness_function = (-0.2 * x**2 + 6*x + 7)**2
+        elif self.FitnessFunction == "3rd function":
+            fitness_function = -0.15 * x**2 + 7*x + 5
             return fitness_function
         else:
             fitness_function = -0.2 * x**2 + 6*x + 7

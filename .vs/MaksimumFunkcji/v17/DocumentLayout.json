@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\milcz\\Documents\\Studia\\Algorytmy_ewolucyjne\\Maksimum_Funkcji_Dopasowania\\MaksimumFunkcji\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{28D8680D-E38E-4206-8590-0EEA9C18A564}|MaksimumFunkcji.pyproj|C:\\Users\\milcz\\Documents\\Studia\\Algorytmy_ewolucyjne\\Maksimum_Funkcji_Dopasowania\\MaksimumFunkcji\\GeneticAlgorithm.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{28D8680D-E38E-4206-8590-0EEA9C18A564}|MaksimumFunkcji.pyproj|solutionrelative:GeneticAlgorithm.py||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{28D8680D-E38E-4206-8590-0EEA9C18A564}|MaksimumFunkcji.pyproj|C:\\Users\\milcz\\Documents\\Studia\\Algorytmy_ewolucyjne\\Maksimum_Funkcji_Dopasowania\\MaksimumFunkcji\\main.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{28D8680D-E38E-4206-8590-0EEA9C18A564}|MaksimumFunkcji.pyproj|solutionrelative:main.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28D8680D-E38E-4206-8590-0EEA9C18A564}|MaksimumFunkcji.pyproj|C:\\Users\\milcz\\Documents\\Studia\\Algorytmy_ewolucyjne\\Maksimum_Funkcji_Dopasowania\\MaksimumFunkcji\\GeneticAlgorithm.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{28D8680D-E38E-4206-8590-0EEA9C18A564}|MaksimumFunkcji.pyproj|solutionrelative:GeneticAlgorithm.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "GeneticAlgorithm.py",
               "DocumentMoniker": "C:\\Users\\milcz\\Documents\\Studia\\Algorytmy_ewolucyjne\\Maksimum_Funkcji_Dopasowania\\MaksimumFunkcji\\GeneticAlgorithm.py",
               "RelativeDocumentMoniker": "GeneticAlgorithm.py",
               "ToolTip": "C:\\Users\\milcz\\Documents\\Studia\\Algorytmy_ewolucyjne\\Maksimum_Funkcji_Dopasowania\\MaksimumFunkcji\\GeneticAlgorithm.py",
               "RelativeToolTip": "GeneticAlgorithm.py",
-              "ViewState": "AgIAAJAAAAAAAAAAAAAAAFgAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
               "WhenOpened": "2024-11-02T00:56:15.729Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "main.py",
               "DocumentMoniker": "C:\\Users\\milcz\\Documents\\Studia\\Algorytmy_ewolucyjne\\Maksimum_Funkcji_Dopasowania\\MaksimumFunkcji\\main.py",
               "RelativeDocumentMoniker": "main.py",
               "ToolTip": "C:\\Users\\milcz\\Documents\\Studia\\Algorytmy_ewolucyjne\\Maksimum_Funkcji_Dopasowania\\MaksimumFunkcji\\main.py",
               "RelativeToolTip": "main.py",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
               "WhenOpened": "2024-10-15T12:53:03.985Z",
               "EditorCaption": ""
