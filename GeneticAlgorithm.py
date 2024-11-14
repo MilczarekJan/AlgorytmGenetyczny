@@ -74,6 +74,8 @@ class GeneticAlgorithm:
         stagnant_population = []
         mating_population_to_return = []
         mating_size = int(self.CrossoverChance*len(population))
+        if mating_size == 0:
+            mating_size=2
 
         mating_population = list(population[:mating_size])
         stagnant_population = list(population[mating_size:])
